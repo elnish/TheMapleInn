@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/media.css">
   <title>The Maple Inn</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/parallax.min.js"></script>
@@ -18,7 +19,7 @@
         </video>
         <div class="top_nav_bar">
           <div class="logo">
-            <!-- <a href="#">The Maple Inn</a> -->
+            <a href="#">The Maple Inn</a>
           </div>
           <nav class="navigation">
             <ul class="menu">
@@ -45,37 +46,6 @@
           <h1>The <em>Maple</em> Inn</h1>
         </div>
       </div>
-      <!-- <video autoplay muted loop class="video_bg">
-        <source src="bg_video.mp4" type="video/mp4">
-      </video> -->
-      <!-- <div class="top_nav_bar">
-        <div class="logo">
-          <a href="#">The Maple Inn</a>
-        </div>
-        <nav class="navigation">
-          <ul class="menu">
-            <li class="menu_item">
-              <a href="#">Gallery</a>
-            </li>
-            <li class="menu_item">
-              <a href="#">Amenities</a>
-            </li>
-            <li class="menu_item">
-              <a href="#">Packages</a>
-            </li>
-            <li class="menu_item">
-              <a href="#">Our History</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="nav_button">
-          <a href="#">Book Your Stay</a>
-        </div>
-      </div>
-      <div class="top_header">
-        <h2>Stone Ridge / New York</h2>
-        <h1>The <em>Maple</em> Inn</h1>
-      </div> -->
     </header>
     <main>
 
@@ -141,8 +111,9 @@
           <p class="address">
             123 Fake Street, Stone Ridge, NY 12345
           </p>
-          <div class="contacts_item">
-            <img src="img/map.jpg" alt="">
+          <div id="map" class="contacts_item">
+            <!-- <img src="img/map.jpg" alt=""> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.34194217321!2d-74.0392716605328!3d40.7590403289844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C+New+York%2C+NY!5e0!3m2!1sen!2sus!4v1551523489312" width="515" height="342" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
         <div class="contacts_item">
@@ -150,11 +121,10 @@
             <ul class="sns_list">
               <li class="sns_item">
                 <a href="#">Instagram</a>
-              </li>
+              </li><span>/</span>
               <li class="sns_item">
-
                 <a href="#">Facebook</a>
-              </li>
+              </li><span>/</span>
               <li class="sns_item">
                 <a href="#">Twitter</a>
               </li>
@@ -201,15 +171,15 @@
           <li class="nav_item"><a href="#">Terms + Conditions</a></li>
         </ul>
       </nav>
+
     </footer>
 
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/parallax.js"></script>
-    <script type="text/javascript">
-      $('.parallax-window').parallax({imageSrc: './img/banner_bg.jpg'});
-    </script>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/parallax.js"></script>
+  <script type="text/javascript">
+    $('.parallax-window').parallax({imageSrc: './img/banner_bg.jpg'});
+
+  </script>
 </body>
 </html>
