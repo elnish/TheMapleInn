@@ -1,16 +1,38 @@
 @media screen and (max-width: 960px) {
-  .top_nav_bar {
-    width: auto;
-    justify-content: space-between;
+  .logo a {
+    font-size: 19px;
   }
-  .menu {
+
+  .top_nav_bar {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav_button a {
+    font-size: 10px;
+  }
+
+  .menu__links {
     width: 245px;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .top_header,
   .banner_content {
-    width: 588px;
+    width: auto;
+  }
+
+
+  .top_header h2 {
+    font-size: 24px;
+  }
+
+  .top_header h1,
+  .banner_content h1 {
+    font-size: 40px;
     word-wrap: break-word;
   }
 
@@ -21,4 +43,102 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .article {
+    margin-left: 50px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+
+  .article_item {
+    width: 414px;
+  }
+
+  .article_item h2  {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .article_button a {
+    padding: 25px 140px;
+  }
+
+  .dashboard {
+    margin-top: 70px;
+  }
+
+  .dashboard_item  {
+    margin-bottom: 20px;
+  }
+
+  .footer_form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_form input[type=email] {
+    margin-bottom: 25px;
+    width: 344px;
+  }
+
+  .form_button a {
+    padding: 6.5px 130px;
+  }
+
+
+}
+
+@media screen and (max-width: 660px) {
+  .logo a {
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: .04em;
+    position: absolute;
+    top: -80px;
+    left: -10px;
+    color: rgb(64,64,64);
+  }
+
+  .top_nav_bar {
+    justify-content: space-between;
+  }
+
+  .menu__icon{
+    display: inline-block;
+    position: absolute;
+    top: -80px;
+    right: -80px;
+  }
+
+  .menu__links {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: rgba(64,64,64,.85);
+    z-index: 1000;
+    overflow: auto;
+  }
+
+  .menu__links-item {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .nav_button {
+    display: none;
+  }
+
+  .top_header {
+    width: 465px;
+    position: absolute;
+    top: 83px;
+    left: 10px;
+    z-index: 100;
+  }
+
 }
