@@ -307,8 +307,8 @@ body {
   font-size: 80px;
   letter-spacing: .02em;
   line-height: 1em;
-  margin-left: 100px;
-  margin-right: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .banner_content .banner_button a {
