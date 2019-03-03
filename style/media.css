@@ -1,9 +1,9 @@
-@media screen and (max-width: 960px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
   body {
     box-sizing: border-box;
   }
-  
+
   .logo a {
     font-size: 19px;
   }
@@ -100,7 +100,15 @@
   }
 }
 
-@media screen and (max-width: 660px) {
+@media (min-width: 481px) and (max-width: 767px) {
+  .dashboard,
+  .dashboard_text,
+  .article,
+  .contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .logo a {
     font-weight: 400;
     font-size: 19px;
@@ -148,9 +156,155 @@
     color:  rgb(64,64,64);
   }
 
+  .nav_button {
+    display: none;
+  }
+
+  .top_header h2 {
+    font-size: 19px;
+  }
+
+  .top_header h1,
+  .banner_content h1 {
+    font-size: 34px;
+    word-wrap: break-word;
+  }
+
+  .dashboard {
+    margin-top: 70px;
+  }
+
+  .dashboard_item  {
+    margin-bottom: 20px;
+  }
+
+  .dashboard_item a {
+    font-size: 28px;
+  }
+
+
+  .footer_form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_form input[type=email] {
+    margin-bottom: 25px;
+    width: 344px;
+  }
+
+  .form_button a {
+    padding: 6.5px 130px;
+  }
+
+  .contacts_item {
+    width: auto;
+    height: auto;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .dashboard,
+  .dashboard_text,
+  .article,
+  .contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo a {
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: .04em;
+    color: rgb(64,64,64);
+  }
+
+  .top_nav_bar {
+    justify-content: space-between;
+  }
+
+  .logo a,
+  .menu__icon {
+    position: relative;
+    top: -87px;
+  }
+
+  .menu__icon {
+    display: inline-block;
+  }
+
+  .menu__links {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 50px;
+    background-color: var(--bg-color);
+    width: 100%;
+    z-index: 1000;
+    overflow: auto;
+  }
+
+  .menu__links-item a {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 19px;
+    color: rgb(64,64,64);
+  }
+
+  .menu__links-item a:hover {
+    text-decoration: underline;
+    color:  rgb(64,64,64);
+  }
 
   .nav_button {
     display: none;
+  }
+
+  .top_header h2 {
+    font-size: 16px;
+  }
+
+  .top_header h1,
+  .banner_content h1 {
+    font-size: 28px;
+    word-wrap: break-word;
+  }
+
+  .dashboard {
+    margin-top: 70px;
+  }
+
+  .dashboard_item  {
+    margin-bottom: 20px;
+  }
+
+  .dashboard_item a {
+    font-size: 28px;
+  }
+
+
+  .footer_form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_form input[type=email] {
+    margin-bottom: 25px;
+    width: 344px;
+  }
+
+  .form_button a {
+    padding: 6.5px 130px;
+  }
+
+  .contacts_item {
+    width: auto;
+    height: auto;
   }
 
 }
