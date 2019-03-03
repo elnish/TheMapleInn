@@ -53,6 +53,7 @@ body {
   align-items: flex-start;
   justify-content: space-around;
   margin-top: 50px;
+  z-index: 100;
 }
 
 .logo a {
@@ -82,6 +83,7 @@ body {
   margin: 0 12px 0 12px;
   letter-spacing: .06em;
   transition: color 170ms ease-in-out;
+  cursor: pointer;
 }
 
 .menu__links-item a:hover {
