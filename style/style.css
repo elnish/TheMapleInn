@@ -288,11 +288,11 @@ body {
   align-items: center;
   text-align: center;
   color: var(--main-text-color);
-  box-sizing: border-box;
 }
 
 .banner .parallax {
   height: 560px;
+  width: 100%;
   background: transparent;
 }
 

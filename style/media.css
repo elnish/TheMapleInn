@@ -1,4 +1,9 @@
 @media screen and (max-width: 960px) {
+
+  body {
+    box-sizing: border-box;
+  }
+  
   .logo a {
     font-size: 19px;
   }
