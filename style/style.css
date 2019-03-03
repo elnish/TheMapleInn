@@ -514,3 +514,7 @@ body {
     min-height: 400px;
     background: transparent;
 }
+
+.hide {
+  display: none;
+}

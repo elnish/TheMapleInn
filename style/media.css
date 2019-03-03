@@ -347,4 +347,12 @@
     width: auto;
   }
 
+  video {
+    display: none;
+  }
+
+  .hide {
+    display: block;
+  }
+
 }
