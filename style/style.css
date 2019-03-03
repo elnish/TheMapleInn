@@ -288,11 +288,11 @@ body {
   align-items: center;
   text-align: center;
   color: var(--main-text-color);
+  box-sizing: border-box;
 }
 
 .banner .parallax {
   height: 560px;
-  width: 100%;
   background: transparent;
 }
 
@@ -320,11 +320,18 @@ body {
 
 .contacts {
   display: flex;
+  justify-content:
   margin: 140px 50px 90px 50px;
 }
 
 .contacts_item {
   width: 515px;
+  height: 342px;
+}
+
+.contacts_item  iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .contacts_item p {
@@ -337,11 +344,11 @@ body {
   padding: 17px;
 }
 
-.contacts_item img {
+/* .contacts_item img {
   height: 342px;
   width: 515px;
   padding: 17px;
-}
+} */
 
 .sns_list {
   display: flex;
