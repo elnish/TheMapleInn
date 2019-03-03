@@ -45,14 +45,14 @@ body {
 }
 
 .top_nav_bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 62.662px;
+  width: 100%;
   position: absolute;
-  top: 40px;
-  left: 37.5px;
-  width: 1088px;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 50px;
 }
 
 .logo a {

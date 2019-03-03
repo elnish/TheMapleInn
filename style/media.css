@@ -25,7 +25,6 @@
     width: auto;
   }
 
-
   .top_header h2 {
     font-size: 24px;
   }
@@ -93,9 +92,6 @@
     font-weight: 400;
     font-size: 19px;
     letter-spacing: .04em;
-    position: absolute;
-    top: -80px;
-    left: -10px;
     color: rgb(64,64,64);
   }
 
@@ -103,11 +99,14 @@
     justify-content: space-between;
   }
 
-  .menu__icon{
+  .logo a,
+  .menu__icon {
+    position: relative;
+    top: -87px;
+  }
+
+  .menu__icon {
     display: inline-block;
-    position: absolute;
-    top: -80px;
-    right: -80px;
   }
 
   .menu__links {
@@ -131,14 +130,6 @@
 
   .nav_button {
     display: none;
-  }
-
-  .top_header {
-    width: 465px;
-    position: absolute;
-    top: 83px;
-    left: 10px;
-    z-index: 100;
   }
 
 }
