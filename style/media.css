@@ -224,7 +224,6 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
 
   .dashboard,
   .dashboard_text,
@@ -322,6 +321,15 @@
 
   .article_button a {
     padding: 25px 30px;
+  }
+
+  .banner_content .banner_button a {
+
+    padding: 25px 26px;
+
+    font-size: 12px;
+    margin: 0 170px;
+
   }
 
   .footer_form {
