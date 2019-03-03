@@ -219,13 +219,12 @@
     height: auto;
   }
 
-  .img_bar  {
-    width: auto;
-  }
+
 
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  
 
   .dashboard,
   .dashboard_text,
