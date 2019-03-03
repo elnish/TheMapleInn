@@ -224,6 +224,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    border: 10px solid var(--bg-color);
+    border-top: 50px solid var(--bg-color);
+
+  }
 
   .dashboard,
   .dashboard_text,
