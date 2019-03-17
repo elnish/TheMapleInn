@@ -332,10 +332,10 @@ body {
   height: 342px;
 }
 
-.contacts_item  iframe {
+/* .contacts_item  iframe {
   width: 100%;
   height: 100%;
-}
+} */
 
 .contacts_item p {
   font-weight: 500;
@@ -517,4 +517,9 @@ body {
 
 .hide {
   display: none;
+}
+
+#map {
+  width: 515px;
+  height: 342px;
 }
