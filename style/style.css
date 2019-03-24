@@ -291,6 +291,7 @@ body {
   align-items: center;
   text-align: center;
   color: var(--main-text-color);
+
 }
 
 .banner .parallax {
@@ -323,7 +324,6 @@ body {
 
 .contacts {
   display: flex;
-  justify-content:
   margin: 140px 50px 90px 50px;
 }
 
